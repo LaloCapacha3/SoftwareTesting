@@ -1,0 +1,10 @@
+1. Function that checks if a given number is positive, negative, or zero.
+
+1: Input: 1
+   Output: positive
+
+2: Input: 0
+   Output: zero
+
+3: Input: -1
+   Output: negative

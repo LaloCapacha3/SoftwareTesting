@@ -205,3 +205,48 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Dependencias
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Entornos
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+.npm/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.next/
+out/
+dist/
+build/
+coverage/
+
+# Editor (Visual Studio Code, JetBrains, etc.)
+.vscode/
+.idea/
+
+# Otros temporales
+*.pid
+*.seed
+*.pid.lock
+*.tgz
+*.tmp
+*.swp
