@@ -1,0 +1,23 @@
+4. Function that processes user orders in an e-commerce system.
+The function calculates the total price of the items in the order,
+applying different discounts based on the quantity of each item.
+The discount rules are as follows:
+
+If the quantity of a single item is between 1 and 5 (inclusive), no discount is applied.
+If the quantity of a single item is between 6 and 10 (inclusive), a 5% discount is applied.
+If the quantity of a single item is greater than 10, a 10% discount is applied.
+
+1: Input: 1
+   Output: No discount
+
+2: Input: 5
+   Output: No discount
+
+3: Input: 6
+   Output: 5% discount
+
+4: Input: 10
+   Output: 5% discount
+
+5: Input: 11
+   Output: 10% discount

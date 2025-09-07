@@ -1,0 +1,25 @@
+2. Function that validates user passwords.
+
+The password validation rules are as follows:
+ - The password must be at least 8 characters long.
+ - The password must contain at least one uppercase letter,
+   one lowercase letter, one digit,
+   and one special character (!, @, #, $, %, or &).
+
+1: Input: password menor a 8 caracteres
+   Output: rejected
+
+2: Input: password sin mayusculas
+   Output: rejected
+
+3: Input: password sin minusculas
+   Output: rejected
+
+4: Input: password sin digitos
+   Output: rejected
+
+5: Input: password sin caracteres especiales
+   Output: rejected
+
+6: Input: password con mas de 8 caracteres, 1 mayuscula, 1 minuscula, 1 digito y un caracter especial de esta lista (!, @, #, $, %, or &)
+   Output: approved
