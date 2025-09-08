@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="27.1.6">
+  <diagram name="Página-1" id="R-h1I9pMSxnBEYz35yWF">
+    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KcQCquwBKkwhogRmfuoi-1" value="&lt;div&gt;1. Draw the state transition diagram for a simple vending machine that dispenses drinks.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- It has two states: &quot;Ready&quot; and &quot;Dispensing&quot;.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- Goes from Ready to Dispensing when inserting a coin and asks you to select the drink.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- After selecting the drink, thanks you and goes from Dispensing to Ready.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry width="500" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KcQCquwBKkwhogRmfuoi-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KcQCquwBKkwhogRmfuoi-2" target="KcQCquwBKkwhogRmfuoi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KcQCquwBKkwhogRmfuoi-5" value="Coin inserted" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KcQCquwBKkwhogRmfuoi-4">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KcQCquwBKkwhogRmfuoi-2" value="READY" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KcQCquwBKkwhogRmfuoi-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KcQCquwBKkwhogRmfuoi-3" target="KcQCquwBKkwhogRmfuoi-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="210" />
+              <mxPoint x="70" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KcQCquwBKkwhogRmfuoi-8" value="Drink selected" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KcQCquwBKkwhogRmfuoi-7">
+          <mxGeometry x="-0.1" y="2" relative="1" as="geometry">
+            <mxPoint x="-16" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KcQCquwBKkwhogRmfuoi-3" value="DISPENSING" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KcQCquwBKkwhogRmfuoi-9" value="Thanks the user" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KcQCquwBKkwhogRmfuoi-10" value="&lt;div&gt;2. Draw the state transition diagram for an elevator system.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- The states are &quot;Idle&quot;, &quot;Moving Up&quot; and &quot;Moving Down&quot;.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- The elevator can only move up or down if the state is in &quot;Idle&quot; state.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- The elevator can only stop if the state is either &quot;Moving Down&quot; or &quot;Moving Up&quot;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="270" width="410" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KcQCquwBKkwhogRmfuoi-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KcQCquwBKkwhogRmfuoi-11" target="KcQCquwBKkwhogRmfuoi-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KcQCquwBKkwhogRmfuoi-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KcQCquwBKkwhogRmfuoi-11" target="KcQCquwBKkwhogRmfuoi-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KcQCquwBKkwhogRmfuoi-11" value="IDLE" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KcQCquwBKkwhogRmfuoi-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KcQCquwBKkwhogRmfuoi-12" target="KcQCquwBKkwhogRmfuoi-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="380" />
+              <mxPoint x="70" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KcQCquwBKkwhogRmfuoi-20" value="Stop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KcQCquwBKkwhogRmfuoi-18">
+          <mxGeometry x="-0.4769" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KcQCquwBKkwhogRmfuoi-12" value="MOVING UP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KcQCquwBKkwhogRmfuoi-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KcQCquwBKkwhogRmfuoi-15" target="KcQCquwBKkwhogRmfuoi-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="570" />
+              <mxPoint x="70" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KcQCquwBKkwhogRmfuoi-21" value="Stop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KcQCquwBKkwhogRmfuoi-19">
+          <mxGeometry x="-0.4429" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KcQCquwBKkwhogRmfuoi-15" value="MOVING DOWN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
