@@ -1,0 +1,85 @@
+1. Function that calculates the eligibility of a person for a loan based on their income and credit score.
+   The eligibility rules are as follows:
+   - If the income is less than $30,000, the person is not eligible for a loan.
+   - If the income is between $30,000 and $60,000 (inclusive) and the credit score is above 700, the person is eligible for a standard loan.
+   - If the income is between $30,000 and $60,000 (inclusive) and the credit score is below or equal to 700, the person is eligible for a secured loan.
+   - If the income is greater than $60,000 and the credit score is above 750, the person is eligible for a premium loan.
+   - If the income is greater than $60,000 and the credit score is between 700 and 750 (inclusive), the person is eligible for a standard loan.
+
+Income Credit score
+1: Input: $29,999
+   Output: Not elegible
+
+2: Input: $30,000 701
+   Output: Standard loan
+
+3: Input: $30,000 1
+   Output: Secured loan
+
+4: Input: $60,000 800
+   Output: Standard loan
+
+5: Input: $60,000 700
+   Output: Secured loan
+
+6: Input: $60,001 751
+   Output: Premium loan
+
+7: Input: $60,001 700
+   Output: Standard loan
+
+8: Input: $60,001 750
+   Output: Standard loan
+
+2. Function that determines the category of a product in an e-commerce system based on its price.
+   The product categories and pricing rules are as follows:
+   - Category A: Products priced between $10 and $50 (inclusive).
+   - Category B: Products priced between $51 and $100 (inclusive).
+   - Category C: Products priced between $101 and $200 (inclusive).
+   - Category D: Products priced above $200.
+
+1: Input: $10
+   Output: A
+
+2: Input: $50
+   Output: A
+
+3: Input: $51
+   Output: B
+
+4: Input: $100
+   Output: B
+
+5: Input: $101
+   Output: C
+
+6: Input: $200
+   Output: C
+
+7: Input: $201
+   Output: D
+
+3. Function that calculates the cost of shipping for packages based on their weight and dimensions.
+   The shipping cost rules are as follows:
+   - If the weight of the package is less than or equal to 1 kg and the dimensions (length, width, and height) are each less than or equal to 10 cm, the cost is $5.
+   - If the weight is between 1 and 5 kg (inclusive) and the dimensions are each between 11 and 30 cm (inclusive), the cost is $10.
+   - If the weight is greater than 5 kg or any of the dimensions is greater than 30 cm, the cost is $20.
+
+Weight(kg) Length Width Height
+1: Input: .01 1 1 1
+   Output: $5
+
+2: Input: 1 10 10 10
+   Output: $5
+
+3: Input: 1 11 11 11
+   Output: $10
+
+4: Input: 5 30 30 30
+   Output: $10
+
+5: Input: 5.1 1 1 1
+   Output: $20
+
+6: Input: 1 31 31 31
+   Output: $20

@@ -1,0 +1,80 @@
+1. Function that validates credit card numbers.
+   - Valid card numbers: Length between 13 and 16 digits, containing only numeric digits.
+
+1: Input: a123456789101112
+   Output: Rejected
+
+2: Input: 123456789101
+   Output: Rejected
+
+3: Input: 12345678910111213
+   Output: Rejected
+
+4: Input: 123456789101112
+   Output: Approved
+
+
+2. Function that validates dates.
+   - Valid years: Between 1900 and 2100.
+   - Valid months: Between 1 and 12.
+   - Valid days: Between 1 and 31.
+
+dd/mm/yyyy
+1: Input: 0/1/1900
+   Output: Rejected
+
+2: Input: 1/0/1900
+   Output: Rejected
+
+3: Input: 1/1/1899
+   Output: Rejected
+
+4: Input: 32/1/1900
+   Output: Rejected
+
+5: Input: 1/13/1900
+   Output: Rejected
+
+6: Input: 1/1/2101
+   Output: Rejected
+
+7: Input: 08/09/2025
+   Output: Approved
+
+3. Function that checks the eligibility of a passenger to book a flight.
+   - Eligible ages: Between 18 and 65.
+   - Frequent flyers: True or False.
+
+1: Input: True 17
+   Output: Rejected
+
+2: Input: True 66
+   Output: Rejected
+
+3: Input: False 17
+   Output: Rejected
+
+4: Input: False 66
+   Output: Rejected
+
+5: Input: True 22
+   Output: Approved
+
+6: Input: False 22
+   Output: Approved
+
+
+4. Function that validates URLs.
+   - Valid URLs: Length less than or equal to 255, starting with "http://" or "https://".
+
+1: Input: www.clase.com
+   Output: Rejected
+
+2: Input: URL con mas de 255 caracteres
+   Output: Rejected
+
+3: Input: http://clase.com
+   Output: Approved
+
+4: Input: https://clase.com
+   Output: Approved
